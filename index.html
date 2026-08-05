@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pace Chauffeurs — Executive Airport Chauffeur Services | Hertfordshire, Bedfordshire, Cambridgeshire</title>
+<meta name="description" content="Premium airport transfers and executive chauffeur travel across Hertfordshire, Bedfordshire and Cambridgeshire. Mercedes V-Class and S-Class, professional chauffeurs, competitive pricing. Call 07446 615545.">
+<link rel="icon" href="assets/logo-full.jpg">
+<meta property="og:title" content="Pace Chauffeurs — Executive Airport Chauffeur Services | Hertfordshire, Bedfordshire, Cambridgeshire">
+<meta property="og:description" content="Premium airport transfers and executive chauffeur travel across Hertfordshire, Bedfordshire and Cambridgeshire. Mercedes V-Class and S-Class, professional chauffeurs, competitive pricing. Call 07446 615545.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/hero-desktop.jpg">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Jost:wght@300;400;500&display=swap">
+<style>
+  body { margin: 0; background: #070a14; background-image: linear-gradient(180deg, #070a14 0%, #0a1023 38%, #0c1732 72%, #080d1c 100%); background-attachment: fixed; color: #eef0f6; font-family: "Jost", system-ui, sans-serif; font-size: 16px; font-weight: 300; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  a { color: #e3c583; text-decoration: none; }
+  a:hover { color: #f0dcb0; }
+  :focus { outline: none; }
+  :focus-visible { outline: 1px solid #e3c583; outline-offset: 3px; }
+  ::selection { background: rgba(227,197,131,0.28); }
+  input, select, textarea, button { font-family: inherit; }
+  select option { background: #101013; color: #eef0f6; }
+  input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webkit-calendar-picker-indicator { filter: invert(0.75) sepia(0.3); cursor: pointer; }
+  @keyframes dotsA { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(-46px, -46px, 0); } }
+  @keyframes dotsB { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(88px, -88px, 0); } }
+  @media (prefers-reduced-motion: reduce) {
+    [data-hero-motion] { animation: none !important; }
+  }
+</style>
+</helmet>
+
+<div id="top"></div>
+
+<div aria-hidden="true" style="position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none">
+  <div data-hero-motion="dots" style="position: absolute; inset: -140px; background-image: radial-gradient(circle, rgba(227,197,131,0.30) 1px, transparent 1.7px); background-size: 46px 46px; animation: dotsA 9s linear infinite"></div>
+  <div data-hero-motion="dots" style="position: absolute; inset: -180px; background-image: radial-gradient(circle, rgba(190,205,235,0.22) 1.2px, transparent 2px); background-size: 88px 88px; animation: dotsB 17s linear infinite"></div>
+  <div style="position: absolute; inset: 0; background: radial-gradient(80% 60% at 20% 12%, rgba(28,44,86,0.55), transparent 70%), radial-gradient(70% 50% at 88% 78%, rgba(20,32,66,0.5), transparent 72%)"></div>
+</div>
+
+<div style="position: sticky; top: 0; z-index: 60; background: #0a0a0c; border-bottom: 1px solid rgba(238,240,246,0.07)">
+  <div style="{{ navBar }}">
+    <a href="#top" style="display: block; flex: none"><img src="assets/logo-full.jpg" alt="Pace Chauffeur — executive chauffeur service" style="{{ navLogo }}"></a>
+    <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+      <nav style="display: flex; gap: 40px; margin-left: auto; align-items: center; font-size: 14.5px; letter-spacing: 0.02em">
+        <a href="#services" style="color: #d3d8e4">Services</a>
+        <a href="#why" style="color: #d3d8e4">Why Pace</a>
+        <a href="#faqs" style="color: #d3d8e4">FAQs</a>
+        <sc-if value="{{ showNavPhone }}" hint-placeholder-val="{{ false }}">
+          <a href="tel:+447446615545" style="color: #d3d8e4; letter-spacing: 0.04em">07446 615545</a>
+        </sc-if>
+      </nav>
+      <a href="#request" style="display: inline-flex; align-items: center; white-space: nowrap; font-size: 14.5px; font-weight: 400; color: #eef0f6; border: 1px solid rgba(238,240,246,0.75); padding: 12px 24px" style-hover="background: #e3c583; border-color: #e3c583; color: #14110b">Request a Journey</a>
+    </sc-if>
+    <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+      <button type="button" onClick="{{ toggleMenu }}" aria-label="Open menu" aria-expanded="{{ menuOpen }}" style="margin-left: auto; flex: none; width: 46px; height: 46px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; background: transparent; border: 1px solid rgba(238,240,246,0.22); cursor: pointer">
+        <span style="width: 5px; height: 5px; border-radius: 50%; background: #e3c583"></span>
+        <span style="width: 5px; height: 5px; border-radius: 50%; background: #e3c583"></span>
+        <span style="width: 5px; height: 5px; border-radius: 50%; background: #e3c583"></span>
+      </button>
+    </sc-if>
+  </div>
+  <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+    <nav style="border-top: 1px solid rgba(238,240,246,0.1); background: #0a0a0c; padding: 8px 20px 22px; display: flex; flex-direction: column">
+      <a href="#services" onClick="{{ closeMenu }}" style="padding: 15px 2px; font-size: 17px; color: #eef0f6; border-bottom: 1px solid rgba(238,240,246,0.08)">Services</a>
+      <a href="#why" onClick="{{ closeMenu }}" style="padding: 15px 2px; font-size: 17px; color: #eef0f6; border-bottom: 1px solid rgba(238,240,246,0.08)">Why Pace</a>
+      <a href="#how" onClick="{{ closeMenu }}" style="padding: 15px 2px; font-size: 17px; color: #eef0f6; border-bottom: 1px solid rgba(238,240,246,0.08)">How It Works</a>
+      <a href="#faqs" onClick="{{ closeMenu }}" style="padding: 15px 2px; font-size: 17px; color: #eef0f6; border-bottom: 1px solid rgba(238,240,246,0.08)">FAQs</a>
+      <a href="#request" onClick="{{ closeMenu }}" style="margin-top: 18px; display: flex; align-items: center; justify-content: center; gap: 14px; background: #e3c583; color: #14110b; font-size: 16px; padding: 16px 20px">Request a Journey<span>↗</span></a>
+      <div style="display: flex; gap: 12px; margin-top: 12px">
+        <a href="tel:+447446615545" style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 15px 12px; font-size: 15px; color: #eef0f6; border: 1px solid rgba(238,240,246,0.3)">Call 07446 615545</a>
+        <a href="https://wa.me/447446615545" target="_blank" rel="noopener" style="flex: none; display: flex; align-items: center; justify-content: center; padding: 15px 18px; font-size: 15px; color: #eef0f6; border: 1px solid rgba(238,240,246,0.3)">WhatsApp</a>
+      </div>
+    </nav>
+  </sc-if>
+</div>
+
+<section data-screen-label="Hero" style="position: relative; background: #070a14; line-height: 0">
+  <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+    <div style="position: relative">
+      <img src="assets/hero-desktop.jpg" alt="Pace Chauffeurs — executive airport chauffeur services, Mercedes V-Class and S-Class" style="display: block; width: 100%; height: auto">
+      <a href="tel:+447446615545" aria-label="Call Pace Chauffeurs on 07446 615545" style="position: absolute; left: 9%; top: 88.4%; width: 46.5%; height: 9.2%; display: flex; align-items: center; justify-content: center; gap: 0.7em; color: #d8dbe4; font-family: 'Playfair Display', Georgia, serif; font-weight: 400; line-height: 1; font-size: 1.95vw; letter-spacing: 0.13em; text-shadow: 0 1px 3px rgba(0,0,0,0.6)" style-hover="color: #ffffff"><svg viewBox="0 0 256 256" fill="currentColor" style="width: 1.5em; height: 1.5em; flex: none"><path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46Z"></path></svg><span>07446 615545</span></a>
+    </div>
+  </sc-if>
+  <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+    <div style="position: relative">
+      <img src="assets/hero-mobile.jpg" alt="Pace Chauffeurs — executive airport chauffeur services, Mercedes V-Class and S-Class" style="display: block; width: 100%; height: auto">
+      <a href="tel:+447446615545" aria-label="Call Pace Chauffeurs on 07446 615545" style="position: absolute; left: 5.4%; top: 91.6%; width: 89.2%; height: 5.4%; display: flex; align-items: center; justify-content: center; gap: 0.7em; color: #d8dbe4; font-family: 'Playfair Display', Georgia, serif; font-weight: 400; line-height: 1; font-size: 4.1vw; letter-spacing: 0.13em; text-shadow: 0 1px 3px rgba(0,0,0,0.6)" style-hover="color: #ffffff"><svg viewBox="0 0 256 256" fill="currentColor" style="width: 1.5em; height: 1.5em; flex: none"><path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46Z"></path></svg><span>07446 615545</span></a>
+    </div>
+  </sc-if>
+  <div style="{{ heroCta }}">
+    <a href="#request" style="display: inline-flex; align-items: center; gap: 34px; background: #e3c583; color: #14110b; font-family: 'Jost', system-ui, sans-serif; font-weight: 400; line-height: 1.2; font-size: 15px; letter-spacing: 0.02em; padding: 19px 32px; box-shadow: 0 14px 40px rgba(0,0,0,0.45)" style-hover="background: #f0dcb0">Request a Journey<span>↗</span></a>
+  </div>
+</section>
+
+<div aria-hidden="true" style="{{ divWrap }}">
+  <div style="display: flex; align-items: center; gap: 20px">
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+    <span style="width: 5px; height: 5px; background: rgba(227,197,131,0.45); transform: rotate(45deg)"></span>
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+  </div>
+</div>
+
+<section id="services" data-screen-label="Services">
+  <div style="{{ svcWrap }}">
+    <p style="margin: 0 0 22px; font-size: 12px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #e3c583">Services</p>
+    <h2 style="{{ h2Svc }}">Chauffeur travel for every kind of journey.</h2>
+    <div style="{{ svcRowFirst }}">
+      <div style="aspect-ratio: 3 / 2; background-image: url('assets/service-airport.jpg'); background-size: cover; background-position: center; box-shadow: 0 0 0 1px rgba(238,240,246,0.08)"></div>
+      <div style="max-width: 44ch">
+        <p style="margin: 0 0 20px; font-family: 'Playfair Display', serif; font-size: 15px; letter-spacing: 0.16em; color: #e3c583">01</p>
+        <h3 style="{{ svcTitle }}">Airport Transfers</h3>
+        <p style="margin: 0; color: #a5abba; text-wrap: pretty">From your doorstep to the terminal, we provide punctual and comfortable airport transfers across Hertfordshire and London, tailored around your journey.</p>
+      </div>
+    </div>
+    <div style="{{ svcRow }}">
+      <div style="aspect-ratio: 3 / 2; background-image: url('assets/service-executive.jpg'); background-size: cover; background-position: center; order: 2; box-shadow: 0 0 0 1px rgba(238,240,246,0.08)"></div>
+      <div style="order: 1; max-width: 44ch">
+        <p style="margin: 0 0 20px; font-family: 'Playfair Display', serif; font-size: 15px; letter-spacing: 0.16em; color: #e3c583">02</p>
+        <h3 style="{{ svcTitle }}">Executive and Corporate Travel</h3>
+        <p style="margin: 0; color: #a5abba; text-wrap: pretty">Travel between offices, meetings and appointments in comfort with a professional chauffeur and premium door-to-door service.</p>
+      </div>
+    </div>
+    <div style="{{ svcRow }}">
+      <div style="aspect-ratio: 3 / 2; background-image: url('assets/service-meetings.jpg'); background-size: cover; background-position: center; box-shadow: 0 0 0 1px rgba(238,240,246,0.08)"></div>
+      <div style="max-width: 44ch">
+        <p style="margin: 0 0 20px; font-family: 'Playfair Display', serif; font-size: 15px; letter-spacing: 0.16em; color: #e3c583">03</p>
+        <h3 style="{{ svcTitle }}">Business Meetings and Events</h3>
+        <p style="margin: 0; color: #a5abba; text-wrap: pretty">Whether you’re attending an important meeting, conference or corporate event, we provide punctual and professional chauffeur travel from door to door.</p>
+      </div>
+    </div>
+    <div style="{{ svcRowLast }}">
+      <div style="aspect-ratio: 3 / 2; background-image: url('assets/service-longdistance.jpg'); background-size: cover; background-position: center; order: 2; box-shadow: 0 0 0 1px rgba(238,240,246,0.08)"></div>
+      <div style="order: 1; max-width: 44ch">
+        <p style="margin: 0 0 20px; font-family: 'Playfair Display', serif; font-size: 15px; letter-spacing: 0.16em; color: #e3c583">04</p>
+        <h3 style="{{ svcTitle }}">Long-Distance Chauffeur Travel</h3>
+        <p style="margin: 0; color: #a5abba; text-wrap: pretty">A private and comfortable alternative to driving or public transport for long-distance journeys across the UK.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div aria-hidden="true" style="{{ divWrap }}">
+  <div style="display: flex; align-items: center; gap: 20px">
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+    <span style="width: 5px; height: 5px; background: rgba(227,197,131,0.45); transform: rotate(45deg)"></span>
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+  </div>
+</div>
+
+<section id="why" data-screen-label="Why Pace" style="position: relative; margin-top: 60px">
+  <div aria-hidden="true" style="position: absolute; inset: 0; background-image: url('assets/why-bg.jpg'); background-size: cover; background-position: 55% 62%"></div>
+  <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(6,10,20,0.9) 0%, rgba(6,10,20,0.82) 45%, rgba(6,10,20,0.93) 100%)"></div>
+  <div style="{{ whyWrap }}">
+    <div>
+      <p style="margin: 0 0 22px; font-size: 12px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #e3c583">Why Pace</p>
+      <p style="{{ whyLead }}">Every journey is handled with care, professionalism and attention to your schedule, so you can travel with confidence from pickup to destination.</p>
+    </div>
+    <div style="{{ whyGrid }}">
+      <div>
+        <div style="height: 1px; width: 40px; background: #e3c583; margin-bottom: 24px"></div>
+        <h3 style="margin: 0 0 12px; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 23px">Punctual and Reliable</h3>
+        <p style="margin: 0; font-size: 15px; color: #a5abba; text-wrap: pretty">Your time matters. Every journey is carefully planned to provide a punctual pickup and get you to your destination on schedule.</p>
+      </div>
+      <div>
+        <div style="height: 1px; width: 40px; background: #e3c583; margin-bottom: 24px"></div>
+        <h3 style="margin: 0 0 12px; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 23px">Premium Comfort</h3>
+        <p style="margin: 0; font-size: 15px; color: #a5abba; text-wrap: pretty">Relax in a clean, comfortable vehicle and enjoy a smooth, private journey from door to door.</p>
+      </div>
+      <div>
+        <div style="height: 1px; width: 40px; background: #e3c583; margin-bottom: 24px"></div>
+        <h3 style="margin: 0 0 12px; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 23px">Professional Chauffeurs</h3>
+        <p style="margin: 0; font-size: 15px; color: #a5abba; text-wrap: pretty">Expect a courteous, discreet and professional service throughout every stage of your journey.</p>
+      </div>
+      <div>
+        <div style="height: 1px; width: 40px; background: #e3c583; margin-bottom: 24px"></div>
+        <h3 style="margin: 0 0 12px; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 23px">Competitive Pricing</h3>
+        <p style="margin: 0; font-size: 15px; color: #a5abba; text-wrap: pretty">Enjoy premium chauffeur travel at a fair and competitive price, with a quote tailored to your journey.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div aria-hidden="true" style="{{ divWrap }}">
+  <div style="display: flex; align-items: center; gap: 20px">
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+    <span style="width: 5px; height: 5px; background: rgba(227,197,131,0.45); transform: rotate(45deg)"></span>
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+  </div>
+</div>
+
+<section id="how" data-screen-label="How It Works" style="margin-top: 58px; background: rgba(11,18,40,0.66)">
+  <div style="{{ howWrap }}">
+    <p style="margin: 0 0 22px; font-size: 12px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #e3c583">How It Works</p>
+    <h2 style="{{ h2How }}">Arranging your journey with Pace is simple.</h2>
+    <p style="{{ howLead }}">Send us your travel details, confirm your quote and leave the rest to us.</p>
+    <div style="{{ stepsGrid }}">
+      <div style="padding-top: 30px; border-top: 1px solid rgba(238,240,246,0.14)">
+        <p style="margin: 0 0 20px; font-family: 'Playfair Display', serif; font-size: 40px; line-height: 1; color: #e3c583">01</p>
+        <h3 style="margin: 0 0 12px; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 25px">Request Your Journey</h3>
+        <p style="margin: 0; font-size: 15px; color: #a5abba; text-wrap: pretty">Complete our quick form with your pickup location, destination, date and contact details.</p>
+      </div>
+      <div style="padding-top: 30px; border-top: 1px solid rgba(238,240,246,0.14)">
+        <p style="margin: 0 0 20px; font-family: 'Playfair Display', serif; font-size: 40px; line-height: 1; color: #e3c583">02</p>
+        <h3 style="margin: 0 0 12px; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 25px">Receive and Confirm Your Quote</h3>
+        <p style="margin: 0; font-size: 15px; color: #a5abba; text-wrap: pretty">We’ll review your journey and contact you with a tailored quote. Once you’re happy, simply confirm your booking.</p>
+      </div>
+      <div style="padding-top: 30px; border-top: 1px solid rgba(238,240,246,0.14)">
+        <p style="margin: 0 0 20px; font-family: 'Playfair Display', serif; font-size: 40px; line-height: 1; color: #e3c583">03</p>
+        <h3 style="margin: 0 0 12px; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 25px">Travel in Comfort</h3>
+        <p style="margin: 0; font-size: 15px; color: #a5abba; text-wrap: pretty">Your chauffeur will arrive at the agreed pickup point and ensure you reach your destination comfortably and on time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div aria-hidden="true" style="{{ divWrap }}">
+  <div style="display: flex; align-items: center; gap: 20px">
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+    <span style="width: 5px; height: 5px; background: rgba(227,197,131,0.45); transform: rotate(45deg)"></span>
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+  </div>
+</div>
+
+<section id="faqs" data-screen-label="FAQs" style="position: relative; margin-top: 56px">
+  <div aria-hidden="true" style="position: absolute; inset: 0; background-image: url('assets/faq-bg.jpg'); background-size: cover; background-position: 50% 58%"></div>
+  <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(6,10,20,0.92) 0%, rgba(6,10,20,0.86) 42%, rgba(6,10,20,0.94) 100%)"></div>
+  <div style="{{ faqWrap }}">
+    <div style="{{ faqHead }}">
+      <p style="margin: 0 0 22px; font-size: 12px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #e3c583">FAQs</p>
+      <h2 style="{{ h2Faq }}">Questions, answered.</h2>
+    </div>
+    <div style="display: flex; flex-direction: column">
+      <div style="border-top: 1px solid rgba(238,240,246,0.12)">
+        <button type="button" onClick="{{ toggle1 }}" style="{{ faqBtn }}" style-hover="color: #e3c583">
+          <span style="flex: 1">How do I book a journey?</span>
+          <span style="font-family: 'Jost', sans-serif; font-size: 20px; font-weight: 300; color: #e3c583; line-height: 1">{{ sign1 }}</span>
+        </button>
+        <sc-if value="{{ open1 }}" hint-placeholder-val="{{ true }}">
+          <p style="{{ faqAns }}">Complete the Request a Journey form with your travel details. We’ll review your request, send you a tailored quote and confirm your booking once you’re happy to proceed.</p>
+        </sc-if>
+      </div>
+      <div style="border-top: 1px solid rgba(238,240,246,0.12)">
+        <button type="button" onClick="{{ toggle2 }}" style="{{ faqBtn }}" style-hover="color: #e3c583">
+          <span style="flex: 1">Which areas and airports do you cover?</span>
+          <span style="font-family: 'Jost', sans-serif; font-size: 20px; font-weight: 300; color: #e3c583; line-height: 1">{{ sign2 }}</span>
+        </button>
+        <sc-if value="{{ open2 }}" hint-placeholder-val="{{ false }}">
+          <p style="{{ faqAns }}">We provide chauffeur travel throughout Hertfordshire and London, including transfers to and from major London airports. Long-distance journeys to other UK destinations are also available upon request.</p>
+        </sc-if>
+      </div>
+      <div style="border-top: 1px solid rgba(238,240,246,0.12)">
+        <button type="button" onClick="{{ toggle3 }}" style="{{ faqBtn }}" style-hover="color: #e3c583">
+          <span style="flex: 1">How much does a journey cost?</span>
+          <span style="font-family: 'Jost', sans-serif; font-size: 20px; font-weight: 300; color: #e3c583; line-height: 1">{{ sign3 }}</span>
+        </button>
+        <sc-if value="{{ open3 }}" hint-placeholder-val="{{ false }}">
+          <p style="{{ faqAns }}">The price depends on the pickup location, destination, travel date and any additional requirements. Submit your journey details and we’ll provide a clear, competitive quote before you confirm your booking.</p>
+        </sc-if>
+      </div>
+      <div style="border-top: 1px solid rgba(238,240,246,0.12)">
+        <button type="button" onClick="{{ toggle4 }}" style="{{ faqBtn }}" style-hover="color: #e3c583">
+          <span style="flex: 1">How far in advance should I book?</span>
+          <span style="font-family: 'Jost', sans-serif; font-size: 20px; font-weight: 300; color: #e3c583; line-height: 1">{{ sign4 }}</span>
+        </button>
+        <sc-if value="{{ open4 }}" hint-placeholder-val="{{ false }}">
+          <p style="{{ faqAns }}">We recommend booking as early as possible to secure your preferred date and time. Short-notice and same-day journeys may also be available, subject to availability.</p>
+        </sc-if>
+      </div>
+      <div style="border-top: 1px solid rgba(238,240,246,0.12); border-bottom: 1px solid rgba(238,240,246,0.12)">
+        <button type="button" onClick="{{ toggle5 }}" style="{{ faqBtn }}" style-hover="color: #e3c583">
+          <span style="flex: 1">What happens if my flight is delayed?</span>
+          <span style="font-family: 'Jost', sans-serif; font-size: 20px; font-weight: 300; color: #e3c583; line-height: 1">{{ sign5 }}</span>
+        </button>
+        <sc-if value="{{ open5 }}" hint-placeholder-val="{{ false }}">
+          <p style="{{ faqAns }}">Provide your flight number when requesting an airport transfer so your journey can be planned around your expected arrival. If your flight schedule changes, please contact us as soon as possible so we can adjust your pickup arrangements.</p>
+        </sc-if>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div aria-hidden="true" style="{{ divWrap }}">
+  <div style="display: flex; align-items: center; gap: 20px">
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+    <span style="width: 5px; height: 5px; background: rgba(227,197,131,0.45); transform: rotate(45deg)"></span>
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+  </div>
+</div>
+
+<section id="request" data-screen-label="Request a Journey" style="margin-top: 58px; background: rgba(9,15,34,0.6)">
+  <div style="{{ reqWrap }}">
+    <div style="{{ reqHead }}">
+      <p style="margin: 0 0 22px; font-size: 12px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #e3c583">Request a Journey</p>
+      <h2 style="{{ h2Req }}">Tell us where you need to go and when.</h2>
+      <p style="margin: 0; font-size: 16px; color: #a5abba; max-width: 34ch; text-wrap: pretty">Complete the form below, and we’ll contact you with a tailored quote.</p>
+    </div>
+
+    <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+      <div style="{{ thanksBox }}">
+        <div style="height: 1px; width: 40px; background: #e3c583; margin-bottom: 30px"></div>
+        <h3 style="margin: 0 0 16px; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 32px; line-height: 1.2; max-width: 26ch">Thank you. Your journey request has been received.</h3>
+        <p style="margin: 0 0 36px; color: #a5abba; max-width: 52ch; text-wrap: pretty">We’ll review your details and contact you shortly with availability and a tailored quote.</p>
+        <button type="button" onClick="{{ reset }}" style="background: transparent; cursor: pointer; font-size: 14.5px; color: #eef0f6; border: 1px solid rgba(238,240,246,0.6); padding: 14px 26px" style-hover="background: #e3c583; border-color: #e3c583; color: #14110b">Request another journey</button>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+      <form onSubmit="{{ submit }}" style="{{ formBox }}">
+        <p style="margin: 0 0 26px; font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #e3c583">Your details</p>
+        <div style="{{ formGrid }}">
+          <label style="display: flex; flex-direction: column; gap: 9px; grid-column: span 2">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Full name*</span>
+            <input name="fullName" type="text" required="required" placeholder="Your full name" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 9px">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Email address*</span>
+            <input name="email" type="email" required="required" placeholder="you@example.com" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 9px">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Telephone number*</span>
+            <input name="telephone" type="tel" required="required" placeholder="Your contact number" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+          </label>
+        </div>
+
+        <p style="margin: 0 0 26px; font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #e3c583">Journey details</p>
+        <div style="{{ formGrid }}">
+          <label style="display: flex; flex-direction: column; gap: 9px; grid-column: span 2">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Type of journey*</span>
+            <select name="journeyType" required="required" style="appearance: none; background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+              <option value="">Select a journey type</option>
+              <option value="airport">Airport transfer</option>
+              <option value="executive">Executive or corporate travel</option>
+              <option value="meeting">Business meeting or event</option>
+              <option value="long">Long-distance travel</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 9px; grid-column: span 2">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Pickup location*</span>
+            <input name="pickup" type="text" required="required" placeholder="Enter the full pickup address" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 9px; grid-column: span 2">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Destination*</span>
+            <input name="destination" type="text" required="required" placeholder="Enter your destination" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 9px">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Pickup date*</span>
+            <input name="pickupDate" type="date" required="required" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 9px">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Pickup time*</span>
+            <input name="pickupTime" type="time" required="required" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+          </label>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px">
+          <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Is this a return journey?</span>
+          <div style="display: inline-flex; gap: 10px">
+            <button type="button" onClick="{{ setReturnYes }}" style="{{ yesStyle }}">Yes</button>
+            <button type="button" onClick="{{ setReturnNo }}" style="{{ noStyle }}">No</button>
+          </div>
+        </div>
+
+        <sc-if value="{{ isReturn }}" hint-placeholder-val="{{ false }}">
+          <div style="{{ returnBox }}">
+            <label style="display: flex; flex-direction: column; gap: 9px">
+              <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Return date</span>
+              <input name="returnDate" type="date" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+            </label>
+            <label style="display: flex; flex-direction: column; gap: 9px">
+              <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Return time</span>
+              <input name="returnTime" type="time" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+            </label>
+          </div>
+        </sc-if>
+
+        <div style="height: 1px; margin: 18px 0 40px; background: rgba(238,240,246,0.1)"></div>
+
+        <p style="margin: 0 0 26px; font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #e3c583">Additional details</p>
+        <div style="{{ formGrid }}">
+          <div style="display: flex; flex-direction: column; gap: 9px">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Number of passengers*</span>
+            <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 2px 2px 6px">
+              <button type="button" onClick="{{ passDown }}" aria-label="Fewer passengers" style="width: 34px; height: 34px; display: grid; place-items: center; background: transparent; border: 1px solid rgba(238,240,246,0.2); color: #cfd5e2; font-size: 16px; cursor: pointer" style-hover="border-color: #e3c583; color: #e3c583">−</button>
+              <span style="font-size: 16px; font-variant-numeric: tabular-nums">{{ passengers }}</span>
+              <button type="button" onClick="{{ passUp }}" aria-label="More passengers" style="width: 34px; height: 34px; display: grid; place-items: center; background: transparent; border: 1px solid rgba(238,240,246,0.2); color: #cfd5e2; font-size: 16px; cursor: pointer" style-hover="border-color: #e3c583; color: #e3c583">+</button>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 9px">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Number of luggage items</span>
+            <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 2px 2px 6px">
+              <button type="button" onClick="{{ bagDown }}" aria-label="Fewer luggage items" style="width: 34px; height: 34px; display: grid; place-items: center; background: transparent; border: 1px solid rgba(238,240,246,0.2); color: #cfd5e2; font-size: 16px; cursor: pointer" style-hover="border-color: #e3c583; color: #e3c583">−</button>
+              <span style="font-size: 16px; font-variant-numeric: tabular-nums">{{ luggage }}</span>
+              <button type="button" onClick="{{ bagUp }}" aria-label="More luggage items" style="width: 34px; height: 34px; display: grid; place-items: center; background: transparent; border: 1px solid rgba(238,240,246,0.2); color: #cfd5e2; font-size: 16px; cursor: pointer" style-hover="border-color: #e3c583; color: #e3c583">+</button>
+            </div>
+          </div>
+          <label style="display: flex; flex-direction: column; gap: 9px; grid-column: span 2">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Flight number</span>
+            <input name="flight" type="text" placeholder="If applicable" style="background: transparent; border: 0; border-bottom: 1px solid rgba(238,240,246,0.2); padding: 10px 2px; color: #eef0f6; font-size: 15px" style-focus="border-bottom-color: #e3c583">
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 9px; grid-column: span 2">
+            <span style="font-size: 13px; letter-spacing: 0.02em; color: #8b93a5">Additional requirements</span>
+            <textarea name="requirements" rows="4" placeholder="Tell us about any stops, accessibility needs or other requirements" style="background: transparent; border: 1px solid rgba(238,240,246,0.2); padding: 12px 13px; color: #eef0f6; font-size: 15px; resize: vertical" style-focus="border-color: #e3c583"></textarea>
+          </label>
+        </div>
+
+        <label style="display: flex; gap: 14px; align-items: flex-start; margin-bottom: 34px; cursor: pointer">
+          <input name="consent" type="checkbox" required="required" style="margin: 4px 0 0; width: 15px; height: 15px; accent-color: #e3c583; flex: none">
+          <span style="font-size: 13.5px; line-height: 1.55; color: #a5abba; text-wrap: pretty">I agree that Pace Chauffeurs may contact me about this journey request and process my information in accordance with the <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
+        </label>
+
+        <button type="submit" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 14px; background: #e3c583; color: #14110b; cursor: pointer; font-size: 15px; letter-spacing: 0.02em; border: 1px solid #e3c583; padding: 19px 26px" style-hover="background: #f0dcb0; border-color: #f0dcb0">Request a Journey<span>↗</span></button>
+        <p style="margin: 16px 0 0; font-size: 12.5px; color: #7a8294; text-align: center; text-wrap: pretty">Submitting this form does not confirm your booking. We’ll contact you with a tailored quote and availability.</p>
+      </form>
+    </sc-if>
+  </div>
+</section>
+
+<div aria-hidden="true" style="{{ divWrap }}">
+  <div style="display: flex; align-items: center; gap: 20px">
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+    <span style="width: 5px; height: 5px; background: rgba(227,197,131,0.45); transform: rotate(45deg)"></span>
+    <span style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(238,240,246,0.13) 45%, rgba(238,240,246,0.13) 55%, transparent)"></span>
+  </div>
+</div>
+
+<footer style="background: rgba(6,10,22,0.72)">
+  <div style="{{ footGrid }}">
+    <div>
+      <img src="assets/logo-full.jpg" alt="Pace Chauffeur — executive chauffeur service" style="display: block; height: 132px; width: auto; margin-bottom: 22px">
+      <p style="margin: 0; font-size: 14.5px; color: #8b93a5; max-width: 32ch; text-wrap: pretty">Premium airport transfers and executive chauffeur travel across Hertfordshire and London.</p>
+    </div>
+    <div>
+      <p style="margin: 0 0 20px; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: #e3c583">Quick Links</p>
+      <div style="display: flex; flex-direction: column; gap: 11px; font-size: 14.5px">
+        <a href="#services" style="color: #cfd5e2">Services</a>
+        <a href="#why" style="color: #cfd5e2">Why Pace</a>
+        <a href="#faqs" style="color: #cfd5e2">FAQs</a>
+        <a href="#request" style="color: #cfd5e2">Request a Journey</a>
+      </div>
+    </div>
+    <div>
+      <p style="margin: 0 0 20px; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: #e3c583">Contact</p>
+      <div style="display: flex; flex-direction: column; gap: 11px; font-size: 14.5px">
+        <a href="tel:+447446615545" style="color: #cfd5e2">07446 615545</a>
+        <a href="mailto:bookings@pacechauffeurs.co.uk" style="color: #cfd5e2">bookings@pacechauffeurs.co.uk</a>
+        <a href="https://wa.me/447446615545" target="_blank" rel="noopener" style="color: #cfd5e2">WhatsApp 07446 615545</a>
+      </div>
+    </div>
+    <div>
+      <p style="margin: 0 0 20px; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: #e3c583">Legal</p>
+      <div style="display: flex; flex-direction: column; gap: 11px; font-size: 14.5px">
+        <a href="privacy-policy.html" style="color: #cfd5e2">Privacy Policy</a>
+        <a href="terms.html" style="color: #cfd5e2">Terms and Conditions</a>
+      </div>
+    </div>
+  </div>
+  <div style="{{ footBase }}">
+    <div style="height: 1px; margin-bottom: 26px; background: rgba(238,240,246,0.09)"></div>
+    <p style="margin: 0; font-size: 12.5px; letter-spacing: 0.04em; color: #7a8294">© 2026 Pace Chauffeurs. All rights reserved.</p>
+  </div>
+</footer>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showNavPhone&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Navigation&quot;}}">
+class Component extends DCLogic {
+  state = { faq: 1, isReturn: false, passengers: 1, luggage: 0, submitted: false, narrow: false, menuOpen: false };
+
+  componentDidMount() {
+    this._sync = () => {
+      const narrow = window.innerWidth < 760;
+      if (narrow !== this.state.narrow) this.setState({ narrow, menuOpen: false });
+    };
+    this._sync();
+    window.addEventListener("resize", this._sync);
+  }
+
+  componentWillUnmount() { window.removeEventListener("resize", this._sync); }
+
+  sendEmail(form) {
+    const g = (n) => {
+      const el = form.elements[n];
+      return el && el.type !== "checkbox" ? String(el.value || "").trim() : "";
+    };
+    const lines = [
+      ["Name", g("fullName")],
+      ["Email", g("email")],
+      ["Telephone", g("telephone")],
+      ["Journey type", g("journeyType")],
+      ["Pickup location", g("pickup")],
+      ["Destination", g("destination")],
+      ["Pickup date", g("pickupDate")],
+      ["Pickup time", g("pickupTime")],
+      ["Return journey", this.state.isReturn ? "Yes" : "No"],
+      ["Return date", this.state.isReturn ? g("returnDate") : ""],
+      ["Return time", this.state.isReturn ? g("returnTime") : ""],
+      ["Passengers", String(this.state.passengers)],
+      ["Luggage items", String(this.state.luggage)],
+      ["Flight number", g("flight")],
+      ["Additional requirements", g("requirements")]
+    ].filter(([, v]) => v).map(([k, v]) => k + ": " + v);
+    const subject = "Journey request — " + (g("fullName") || "website enquiry");
+    const href = "mailto:bookings@pacechauffeurs.co.uk?subject=" + encodeURIComponent(subject) +
+      "&body=" + encodeURIComponent(lines.join("\n"));
+    window.location.href = href;
+  }
+
+  seg(active) {
+    return {
+      background: active ? "#e3c583" : "transparent",
+      border: active ? "1px solid #e3c583" : "1px solid rgba(238,240,246,0.24)",
+      color: active ? "#14110b" : "#a5abba",
+      padding: "10px 26px",
+      fontSize: "14.5px",
+      cursor: "pointer"
+    };
+  }
+
+  toggle(n) { this.setState(s => ({ faq: s.faq === n ? null : n })); }
+
+  layout() {
+    const m = this.state.narrow;
+    const serif = "'Playfair Display', Georgia, serif";
+    const row = (pad, border) => m
+      ? { display: "grid", gridTemplateColumns: "1fr", gap: "26px", padding: pad.m, borderTop: border ? "1px solid rgba(238,240,246,0.09)" : undefined }
+      : { display: "grid", gridTemplateColumns: "1.05fr 0.95fr", gap: "64px", alignItems: "center", padding: pad.d, borderTop: border ? "1px solid rgba(238,240,246,0.09)" : undefined };
+    return {
+      navBar: { maxWidth: "1320px", margin: "0 auto", padding: m ? "8px 18px" : "10px 40px", display: "flex", alignItems: "center", gap: m ? "16px" : "40px" },
+      navLogo: { display: "block", height: m ? "54px" : "84px", width: "auto" },
+      divWrap: { maxWidth: "1320px", margin: "0 auto", padding: m ? "40px 20px 0" : "56px 40px 0" },
+      heroCta: { display: "flex", justifyContent: "center", padding: m ? "26px 20px 4px" : "34px 40px 6px" },
+
+      svcWrap: { maxWidth: "1320px", margin: "0 auto", padding: m ? "40px 20px 0" : "56px 40px 0" },
+      h2Svc: { margin: m ? "0 0 40px" : "0 0 72px", fontFamily: serif, fontWeight: 400, fontSize: m ? "30px" : "46px", lineHeight: 1.16, maxWidth: "24ch" },
+      svcRowFirst: row({ d: "0 0 76px", m: "0 0 40px" }, false),
+      svcRow: row({ d: "76px 0 76px", m: "40px 0 40px" }, true),
+      svcRowLast: row({ d: "76px 0 0", m: "40px 0 0" }, true),
+      svcTitle: { margin: "0 0 14px", fontFamily: serif, fontWeight: 400, fontSize: m ? "24px" : "32px", lineHeight: 1.2 },
+
+      whyWrap: { position: "relative", maxWidth: "1320px", margin: "0 auto", padding: m ? "56px 20px 60px" : "96px 40px 104px", display: "grid", gridTemplateColumns: m ? "1fr" : "0.9fr 1.1fr", gap: m ? "40px" : "76px", alignItems: "start" },
+      whyLead: { margin: 0, fontFamily: serif, fontWeight: 400, fontSize: m ? "23px" : "32px", lineHeight: 1.3, color: "#eef0f6", textWrap: "pretty" },
+      whyGrid: { display: "grid", gridTemplateColumns: m ? "1fr" : "repeat(2, 1fr)", gap: m ? "32px" : "52px 44px", paddingTop: m ? 0 : "8px" },
+
+      howWrap: { maxWidth: "1320px", margin: "0 auto", padding: m ? "56px 20px 60px" : "104px 40px 108px" },
+      h2How: { margin: "0 0 14px", fontFamily: serif, fontWeight: 400, fontSize: m ? "30px" : "46px", lineHeight: 1.16, maxWidth: "26ch" },
+      howLead: { margin: m ? "0 0 40px" : "0 0 76px", fontSize: m ? "16px" : "17px", color: "#a5abba", maxWidth: "56ch", textWrap: "pretty" },
+      stepsGrid: { display: "grid", gridTemplateColumns: m ? "1fr" : "repeat(3, 1fr)", gap: m ? "34px" : "56px" },
+
+      faqWrap: { position: "relative", maxWidth: "1320px", margin: "0 auto", padding: m ? "52px 20px 56px" : "96px 40px 100px", display: "grid", gridTemplateColumns: m ? "1fr" : "0.7fr 1.3fr", gap: m ? "30px" : "76px", alignItems: "start" },
+      faqHead: m ? {} : { position: "sticky", top: "120px" },
+      h2Faq: { margin: 0, fontFamily: serif, fontWeight: 400, fontSize: m ? "30px" : "46px", lineHeight: 1.16 },
+      faqBtn: { width: "100%", display: "flex", alignItems: "center", gap: m ? "16px" : "28px", background: "transparent", border: 0, cursor: "pointer", textAlign: "left", padding: m ? "20px 2px" : "28px 4px", color: "#eef0f6", fontFamily: serif, fontSize: m ? "18px" : "22px", fontWeight: 400, lineHeight: 1.3 },
+      faqAns: { margin: "-4px 0 0", padding: m ? "0 8px 22px 2px" : "0 64px 30px 4px", fontSize: m ? "15px" : "16px", color: "#a5abba", maxWidth: "68ch", textWrap: "pretty" },
+
+      reqWrap: { maxWidth: "1320px", margin: "0 auto", padding: m ? "56px 20px 64px" : "104px 40px 112px", display: "grid", gridTemplateColumns: m ? "1fr" : "0.8fr 1.2fr", gap: m ? "34px" : "76px", alignItems: "start" },
+      reqHead: m ? {} : { position: "sticky", top: "120px" },
+      h2Req: { margin: "0 0 18px", fontFamily: serif, fontWeight: 400, fontSize: m ? "30px" : "44px", lineHeight: 1.16, textWrap: "balance" },
+      formBox: { background: "rgba(6,10,22,0.72)", border: "1px solid rgba(238,240,246,0.12)", padding: m ? "28px 20px 32px" : "52px 52px 56px" },
+      thanksBox: { background: "rgba(6,10,22,0.72)", border: "1px solid rgba(227,197,131,0.4)", padding: m ? "36px 22px" : "64px 56px" },
+      formGrid: { display: "grid", gridTemplateColumns: m ? "1fr" : "repeat(2, 1fr)", gap: m ? "18px" : "20px", marginBottom: m ? "32px" : "40px" },
+      returnBox: { display: "grid", gridTemplateColumns: m ? "1fr" : "repeat(2, 1fr)", gap: m ? "18px" : "20px", marginBottom: "30px", padding: m ? "20px" : "26px 26px 28px", border: "1px solid rgba(227,197,131,0.28)", background: "rgba(227,197,131,0.045)" },
+
+      footGrid: { maxWidth: "1320px", margin: "0 auto", padding: m ? "48px 20px 32px" : "82px 40px 40px", display: "grid", gridTemplateColumns: m ? "1fr 1fr" : "1.5fr 1fr 1fr 1fr", gap: m ? "32px 24px" : "56px" },
+      footBase: { maxWidth: "1320px", margin: "0 auto", padding: m ? "0 20px 36px" : "0 40px 48px" }
+    };
+  }
+
+  renderVals() {
+    const f = this.state.faq;
+    return {
+      ...this.layout(),
+      menuOpen: this.state.menuOpen,
+      toggleMenu: () => this.setState(st => ({ menuOpen: !st.menuOpen })),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      showNavPhone: this.props.showNavPhone ?? false,
+      isMobile: this.state.narrow,
+      isDesktop: !this.state.narrow,
+      open1: f === 1, open2: f === 2, open3: f === 3, open4: f === 4, open5: f === 5,
+      sign1: f === 1 ? "−" : "+", sign2: f === 2 ? "−" : "+", sign3: f === 3 ? "−" : "+",
+      sign4: f === 4 ? "−" : "+", sign5: f === 5 ? "−" : "+",
+      toggle1: () => this.toggle(1), toggle2: () => this.toggle(2), toggle3: () => this.toggle(3),
+      toggle4: () => this.toggle(4), toggle5: () => this.toggle(5),
+      isReturn: this.state.isReturn,
+      yesStyle: this.seg(this.state.isReturn),
+      noStyle: this.seg(!this.state.isReturn),
+      setReturnYes: () => this.setState({ isReturn: true }),
+      setReturnNo: () => this.setState({ isReturn: false }),
+      passengers: this.state.passengers,
+      luggage: this.state.luggage,
+      passUp: () => this.setState(s => ({ passengers: Math.min(16, s.passengers + 1) })),
+      passDown: () => this.setState(s => ({ passengers: Math.max(1, s.passengers - 1) })),
+      bagUp: () => this.setState(s => ({ luggage: Math.min(16, s.luggage + 1) })),
+      bagDown: () => this.setState(s => ({ luggage: Math.max(0, s.luggage - 1) })),
+      submitted: this.state.submitted,
+      notSubmitted: !this.state.submitted,
+      submit: (e) => { e.preventDefault(); this.sendEmail(e.target); this.setState({ submitted: true }); },
+      reset: () => this.setState({ submitted: false, isReturn: false, passengers: 1, luggage: 0 })
+    };
+  }
+}
+
+</script>
+</body>
+</html>
